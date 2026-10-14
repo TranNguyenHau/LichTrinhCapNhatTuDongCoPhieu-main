@@ -1,0 +1,40 @@
+# Private configuration and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.key
+*.pem
+*credentials*.json
+
+# Generated model bundles, private financial data, db dumps
+**/bundle_v1_profit_export_only_NEW/
+**/bundle_v1*/
+*.joblib
+*.pkl
+*.pickle
+*.keras
+*.h5
+*.ubj
+*.npz
+*.zip
+*.sql.gz
+*.dump
+*.backup
+*.db
+*.sqlite*
+# runtime
+.venv/
+.venv-1/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+logs/
+**/logs/
+fetch_log_*.txt
+*.log
+.vscode/

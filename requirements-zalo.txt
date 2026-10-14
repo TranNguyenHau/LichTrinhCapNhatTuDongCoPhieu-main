@@ -1,0 +1,3 @@
+# Chi cho bot/agent o may khac GOI API du bao, khong can tai model.
+requests>=2.31,<3
+python-dotenv>=1,<2

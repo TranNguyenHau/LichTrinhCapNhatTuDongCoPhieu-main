@@ -1,0 +1,1 @@
+web: gunicorn stocktrain_e02.api:app --bind 0.0.0.0:$PORT

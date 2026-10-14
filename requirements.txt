@@ -1,0 +1,14 @@
+# Windows Python 3.13 da duoc nguoi dung kiem thu voi 5 model.
+# Model can su dung bundle tu Colab va PostgreSQL hien hanh.
+Flask>=3.0,<4
+Flask-Cors>=4,<7
+python-dotenv>=1,<2
+psycopg2-binary>=2.9,<3
+numpy==2.1.3
+pandas==2.2.3
+scikit-learn==1.6.1
+xgboost==3.4.1
+joblib==1.6.0
+ta==0.11.0
+vnstock
+tensorflow==2.21.0
